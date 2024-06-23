@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GpChecker</title>
+    <link rel="stylesheet" href="../public/output.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <!-- Header -->
+    <header class="shadow-lg shadow-[#14641499]">
+        <h1 class="text-5xl font-extrabold font-dancingscript text-[#14641499] text-center p-[20px]">CGPA Checker</h1>
+    </header>
+    <!-- Calculator -->
+    <div>
+        <div class="mt-[50px] w-[40%] mx-auto border-[2px] border-[#14641499] rounded-xl shadow-xl shadow-[#113c1199]">
+            <form action="" name="theForm" id="theForm">
+                <div class="flex flex-wrap justify-around" id="inputDiv">
+                <input type="number" placeholder="Credit Unit" class="inputs" required>
+                    <select name="" id="" class="selects">
+                    <option value="0">F</option>
+                    <option value="1">E</option>
+                    <option value="2">D</option>
+                    <option value="3">C</option>
+                    <option value="4">B</option>
+                    <option value="5">A</option>
+                </select>
+                <input type="number" placeholder="Credit Unit" class="inputs" required>
+                <select name="" id="" class="selects">
+                    <option value="0">F</option>
+                    <option value="1">E</option>
+                    <option value="2">D</option>
+                    <option value="3">C</option>
+                    <option value="4">B</option>
+                    <option value="5">A</option>
+                </select>
+                <input type="number" placeholder="Credit Unit" class="inputs" required>
+                <select name="" id="" class="selects">
+                    <option value="0">F</option>
+                    <option value="1">E</option>
+                    <option value="2">D</option>
+                    <option value="3">C</option>
+                    <option value="4">B</option>
+                    <option value="5">A</option>
+                </select>
+                <input type="number" placeholder="Credit Unit" class="inputs" required>
+                <select name="" id="" class="selects">
+                    <option value="0">F</option>
+                    <option value="1">E</option>
+                    <option value="2">D</option>
+                    <option value="3">C</option>
+                    <option value="4">B</option>
+                    <option value="5">A</option>
+                </select>
+                <input type="number" placeholder="Credit Unit" class="inputs" required>
+                <select name="" id="" class="selects">
+                    <option value="0">F</option>
+                    <option value="1">E</option>
+                    <option value="2">D</option>
+                    <option value="3">C</option>
+                    <option value="4">B</option>
+                    <option value="5">A</option>
+                </select>
+                </div>
+                <div class="flex justify-center my-[10px] "><button class="border-[1px] border-[#113c1199] p-[10px] text-[#113c1199] bg-[#d9e4d5]" id="addMore" type="button"><i class='bx bx-plus' ></i>Add Course</button></div>
+                <div class="flex justify-center my-[10px] "><button class="border-[1px] border-[#113c1199] p-[10px] text-[#113c1199] bg-[#d9e4d5]" id="remove" type="button"><i class='bx bx-minus'></i>Remove Course</button></div>
+                <div class="border-2px w-[50%] p-[20px] m-auto">
+                    <h1 class="font-bold text-[#14641499]">Your GP is: <span id="res"></span></h1>
+                </div>
+                <button type="submit" class="p-[10px] text-white bg-[#14641499] w-[100%] rounded-[10px] hover:cursor-pointer" id="submitButton">Submit</button>
+            </form>
+        </div>
+        <div>
+            <h1 id="res"></h1>
+        </div>
+    </div>
+    <!-- Calculator done -->
+<script src="./index.js"></script>
+</body>
+</html>
